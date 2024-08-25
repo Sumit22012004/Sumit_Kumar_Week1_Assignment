@@ -1,0 +1,39 @@
+Week 1 Assignment
+
+Question 1: Write a Python program to perform basic arithmetic operations (addition, subtraction, multiplication, division).
+Solution 1:
+
+# First enter the numbers that you want to perform actions with
+a= int(input("Enter the first number: "))
+b= int(input("Enter the second number: "))
+
+# Then we perform the addition, subtraction, multiplication and division operation on the given numbers by the user.
+print("Addition of two numbers: ",a+b)
+print("Subtraction of two numbers: ",a-b)
+print("Multiplication of two numbers: ",a*b)
+print("Division of two numbers: ",a/b)
+
+Question 2: Create a program that uses conditional statements to determine if a number is positive, negative, or zero.
+Solution 2:
+
+# First enter the number that you want to check
+a= int(input("Enter the number: "))
+
+# Then we use if-elif-else conditions to check weather the number is positive, negative or 0.
+if a>0:
+    print("The number is positive")
+elif a<0:
+    print("The number is negative")
+else:
+    print("The number is zero")
+
+Question 3: Write a script that accepts user input and displays it in reverse order.
+Solution 3:
+
+a= input("Enter the script: ")
+b= ""
+i= len(a)
+while i>0:
+    b= b+a[i-1]
+    i= i-1
+print(b)
